@@ -1,0 +1,18 @@
+<div class="container mt-3">
+    <div id="accomplishments">
+        <div class="card" *ngFor="let progressItem of progressList; let i = index" [attr.data-index]="i">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button (click)="onIndexChange(i);" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    {{ progressItem.name }}
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" [ngStyle]="index===i && {'display': 'block'}">
+            <div class="card-body" >
+                <p>{{ progressItem.content }}</p>
+            </div>
+          </div>
+        </div>
+    </div>
