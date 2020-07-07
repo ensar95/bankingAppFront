@@ -1,6 +1,6 @@
 export let apiResponse = [
     { 
-      name:"What have we done in the banking app so far????",
+      name:"What have we done in the banking app so far?",
       content:"The main idea of this project was to create a simulation of a banking backend. We've created a rest API backend that can be consumed by any http client. Features include: user management,account management, transactions, analytics, JWT authentication, role-based authorization and e-mail verification."
     },
     { 
