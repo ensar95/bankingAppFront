@@ -1,0 +1,20 @@
+.fa-facebook, .fa-linkedin, .fa-bookmark {
+  color: white;
+  background-color: #3B5998;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=contact-info.component.css.map */

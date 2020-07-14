@@ -1,0 +1,20 @@
+$primaryIconColor: white;
+$backgroundColor:#3B5998;
+$fontSize:30px;
+$defaultWidth:50px;
+.fa-facebook, .fa-linkedin, .fa-bookmark{
+    color:$primaryIconColor;
+    background-color: $backgroundColor;
+}
+.fa{
+    padding:10px;
+    font-size: $fontSize;
+    width: $defaultWidth;
+    text-align: center;
+    text-decoration: none;
+    margin:5px 2px;
+    border-radius: 50%;
+}
+.fa:hover{
+    opacity: 0.7;
+}

@@ -1,0 +1,30 @@
+$primary-color:#343A40;
+$secondary-color:#4FA7FF;
+$primary-text-color:#ffffff;
+$secondary-text-color:#4FA7FF;
+@media (max-width:767px){
+    .nav{
+        flex-direction: column;
+    }
+    .nav-link{
+        padding:0rem 1rem !important;
+        border-radius: 0;
+    }
+    .nav-component{
+        border-bottom:2px solid transparent;
+    }
+}
+.a{
+    color:$secondary-text-color;
+}
+.nav-component{
+    border-bottom: 4px solid transparent;
+    margin:0px 5px;
+}
+.nav-component:hover{
+    border-bottom: 4px solid $secondary-color;
+}
+.navbar{
+    padding:0 !important;
+}
+
